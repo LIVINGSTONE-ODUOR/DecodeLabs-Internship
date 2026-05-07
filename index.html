@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Nexify - Modern SaaS platform for ambitious teams. Experience the future of workflow automation.">
+  <meta name="keywords" content="SaaS, productivity, automation, collaboration, workflow, analytics">
+  <meta name="author" content="Nexify">
+  <meta property="og:title" content="Nexify | Modern SaaS Platform">
+  <meta property="og:description" content="Build smarter, move faster with Nexify - The all-in-one platform for teams.">
+  <meta property="og:type" content="website">
+  <title>Nexify | Modern SaaS Platform</title>
+  <!-- Preconnect for faster fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Font Awesome 6 (free icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%230D9488'/%3E%3Cpath d='M50 20 L65 50 L50 80 L35 50 Z' fill='white'/%3E%3C/svg%3E">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header class="site-header" id="mainHeader" role="banner">
+    <div class="container nav-container">
+      <a href="#home" class="logo" aria-label="Nexify Home">
+        <i class="fas fa-bolt logo-icon" aria-hidden="true"></i>
+        <span>Nexify</span>
+      </a>
+      <nav class="main-nav" id="mainNav" role="navigation" aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#solutions" class="nav-link">Solutions</a></li>
+          <li><a href="#showcase" class="nav-link">Showcase</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn-outline" id="signInBtn" aria-label="Sign in to your account">Sign In</button>
+        <button class="btn-primary" id="getStartedNavBtn" aria-label="Get started with Nexify">Get Started</button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu" aria-expanded="false">
+          <i class="fas fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <main id="content">
+    <!-- Hero Section -->
+    <section class="hero" id="home" aria-label="Hero section">
+      <div class="hero-bg-overlay" aria-hidden="true"></div>
+      <div class="hero-bg-image" style="background-image: url('assets/hero-bg.jpg');" aria-hidden="true"></div>
+      <div class="container hero-container">
+        <div class="hero-content" data-reveal>
+          <span class="hero-badge">✨ Next-Gen Productivity</span>
+          <h1 class="hero-title">
+            Build smarter,<br>
+            <span class="gradient-text">move faster</span> with Nexify
+          </h1>
+          <p class="hero-description">
+            The all-in-one platform that empowers teams to automate workflows, collaborate seamlessly, and scale without limits. Join 10,000+ forward-thinking companies.
+          </p>
+          <div class="hero-buttons">
+            <button class="btn-primary btn-large" id="heroCtaBtn">
+              Start Free Trial <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </button>
+            <button class="btn-outline btn-large" id="watchDemoBtn">
+              <i class="fas fa-play" aria-hidden="true"></i> Watch Demo
+            </button>
+          </div>
+          <div class="hero-stats" data-reveal>
+            <div class="stat">
+              <span>99.9%</span>
+              Uptime SLA
+            </div>
+            <div class="stat">
+              <span>10k+</span>
+              Active Teams
+            </div>
+            <div class="stat">
+              <span>24/7</span>
+              Expert Support
+            </div>
+          </div>
+        </div>
+        <div class="hero-image" data-reveal>
+          <div class="hero-visual-wrapper">
+            <div class="floating-card card-1">
+              <i class="fas fa-chart-line" aria-hidden="true"></i>
+              <span>Revenue <strong>+47%</strong></span>
+            </div>
+            <div class="floating-card card-2">
+              <i class="fas fa-users" aria-hidden="true"></i>
+              <span><strong>5x</strong> Team Velocity</span>
+            </div>
+            <div class="floating-card card-3">
+              <i class="fas fa-clock" aria-hidden="true"></i>
+              <span><strong>80%</strong> Time Saved</span>
+            </div>
+            <div class="hero-abstract" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trusted by Section -->
+    <section class="trusted" aria-label="Trusted by leading companies">
+      <div class="container">
+        <div class="trusted-inner" data-reveal>
+          <span class="trusted-label">Trusted by innovative teams worldwide</span>
+          <div class="trusted-logos" role="list">
+            <img src="assets/logo-1.svg" alt="Aurora Technologies" role="listitem" width="220" height="70" loading="lazy">
+            <img src="assets/logo-2.svg" alt="Keystone Systems" role="listitem" width="220" height="70" loading="lazy">
+            <img src="assets/logo-3.svg" alt="VantaForge" role="listitem" width="220" height="70" loading="lazy">
+            <img src="assets/logo-1.svg" alt="Aurora Technologies" role="listitem" width="220" height="70" loading="lazy" style="opacity: 0.6;">
+            <img src="assets/logo-2.svg" alt="Keystone Systems" role="listitem" width="220" height="70" loading="lazy" style="opacity: 0.6;">
+            <img src="assets/logo-3.svg" alt="VantaForge" role="listitem" width="220" height="70" loading="lazy" style="opacity: 0.6;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features" aria-label="Platform features">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-tag">Why choose us</span>
+          <h2 class="section-title">Powerful features,<br>simple execution</h2>
+          <p class="section-subtitle">Everything you need to run your business efficiently — all in one intuitive platform designed for modern teams.</p>
+        </div>
+        <div class="features-grid">
+          <article class="feature-card fade-up" data-reveal>
+            <div class="feature-icon" aria-hidden="true">
+              <i class="fas fa-cloud-upload-alt"></i>
+            </div>
+            <h3>Real-time Sync</h3>
+            <p>Instant data synchronization across all devices. Never miss an update with live collaboration tools that keep everyone aligned.</p>
+            <a href="#" class="feature-link" aria-label="Learn more about Real-time Sync">Learn more <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+          <article class="feature-card fade-up" data-reveal>
+            <div class="feature-icon" aria-hidden="true">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>Bank-grade Security</h3>
+            <p>Enterprise-level encryption and compliance (SOC2, GDPR, HIPAA) to keep your sensitive data safe and secure at all times.</p>
+            <a href="#" class="feature-link" aria-label="Learn more about Security">Learn more <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+          <article class="feature-card fade-up" data-reveal>
+            <div class="feature-icon" aria-hidden="true">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h3>AI Automation</h3>
+            <p>Automate repetitive tasks with intelligent workflows that learn and adapt to your team's unique processes and needs.</p>
+            <a href="#" class="feature-link" aria-label="Learn more about AI Automation">Learn more <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+          <article class="feature-card fade-up" data-reveal>
+            <div class="feature-icon" aria-hidden="true">
+              <i class="fas fa-chart-pie"></i>
+            </div>
+            <h3>Advanced Analytics</h3>
+            <p>Deep insights with customizable dashboards, real-time KPIs, and predictive analytics to drive data-informed decisions.</p>
+            <a href="#" class="feature-link" aria-label="Learn more about Advanced Analytics">Learn more <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="solutions" id="solutions" aria-label="Solutions for every team">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-tag">Solutions</span>
+          <h2 class="section-title">Designed for modern<br>teams & enterprises</h2>
+          <p class="section-subtitle">Tailored solutions that scale with your organization, from startups to Fortune 500 companies.</p>
+        </div>
+        <div class="solutions-grid">
+          <div class="solution-card slide-in" data-reveal>
+            <div class="solution-icon-wrapper">
+              <i class="fas fa-code-branch" aria-hidden="true"></i>
+            </div>
+            <h3>DevOps Pipeline</h3>
+            <p>Streamline CI/CD and deployment automation with integrated testing, monitoring, and rollback capabilities.</p>
+            <ul class="solution-features">
+              <li><i class="fas fa-check" aria-hidden="true"></i> Automated deployments</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Rollback protection</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Multi-environment support</li>
+            </ul>
+          </div>
+          <div class="solution-card slide-in" data-reveal>
+            <div class="solution-icon-wrapper">
+              <i class="fas fa-chalkboard-user" aria-hidden="true"></i>
+            </div>
+            <h3>Remote Collaboration</h3>
+            <p>Virtual whiteboards, video conferencing, and real-time chat that makes distance irrelevant.</p>
+            <ul class="solution-features">
+              <li><i class="fas fa-check" aria-hidden="true"></i> HD video meetings</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Shared workspaces</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Async communication</li>
+            </ul>
+          </div>
+          <div class="solution-card slide-in" data-reveal>
+            <div class="solution-icon-wrapper">
+              <i class="fas fa-database" aria-hidden="true"></i>
+            </div>
+            <h3>Data Integration</h3>
+            <p>Connect 200+ tools without writing code. Unified data pipeline for seamless information flow.</p>
+            <ul class="solution-features">
+              <li><i class="fas fa-check" aria-hidden="true"></i> 200+ integrations</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> No-code builders</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Real-time sync</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Showcase Section -->
+    <section class="showcase" id="showcase" aria-label="Product showcase">
+      <div class="container">
+        <div class="showcase-grid">
+          <div class="showcase-content" data-reveal>
+            <span class="section-tag">See it in action</span>
+            <h2 class="section-title">A dashboard that<br>drives results</h2>
+            <p class="showcase-description">
+              Get a bird's-eye view of your entire operation with our intuitive dashboard. Track metrics, monitor progress, and make informed decisions — all from one screen.
+            </p>
+            <ul class="showcase-features">
+              <li>
+                <div class="showcase-feature-icon"><i class="fas fa-eye" aria-hidden="true"></i></div>
+                <div>
+                  <h4>Real-time Visibility</h4>
+                  <p>Live data updates with zero latency</p>
+                </div>
+              </li>
+              <li>
+                <div class="showcase-feature-icon"><i class="fas fa-sliders-h" aria-hidden="true"></i></div>
+                <div>
+                  <h4>Fully Customizable</h4>
+                  <p>Drag-and-drop widgets for your needs</p>
+                </div>
+              </li>
+              <li>
+                <div class="showcase-feature-icon"><i class="fas fa-bell" aria-hidden="true"></i></div>
+                <div>
+                  <h4>Smart Alerts</h4>
+                  <p>AI-powered notifications that matter</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="showcase-image" data-reveal>
+            <div class="showcase-frame">
+              <div class="showcase-browser">
+                <div class="browser-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <img src="assets/dashboard-1.jpg" alt="Nexify Dashboard Interface" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section" aria-label="Team collaboration">
+      <div class="container">
+        <div class="team-grid">
+          <div class="team-image" data-reveal>
+            <div class="team-image-wrapper">
+              <img src="assets/team-1.jpg" alt="Team collaborating in modern office" loading="lazy">
+              <div class="team-badge">
+                <i class="fas fa-users" aria-hidden="true"></i>
+                <span>Collaborate Better</span>
+              </div>
+            </div>
+          </div>
+          <div class="team-content" data-reveal>
+            <span class="section-tag">Built for teams</span>
+            <h2 class="section-title">Work together,<br>wherever you are</h2>
+            <p class="team-description">
+              Nexify brings your team together with powerful collaboration tools. Share ideas, track progress, and celebrate wins — all in one place.
+            </p>
+            <div class="team-stats">
+              <div class="team-stat">
+                <span class="team-stat-number">50M+</span>
+                <span class="team-stat-label">Messages sent</span>
+              </div>
+              <div class="team-stat">
+                <span class="team-stat-number">2M+</span>
+                <span class="team-stat-label">Files shared</span>
+              </div>
+              <div class="team-stat">
+                <span class="team-stat-number">500k+</span>
+                <span class="team-stat-label">Projects completed</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials" aria-label="Customer testimonials">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-tag">Trusted globally</span>
+          <h2 class="section-title">What our customers say</h2>
+          <p class="section-subtitle">Join thousands of teams who have transformed their workflow with Nexify.</p>
+        </div>
+        <div class="testimonials-slider" id="testimonialSlider">
+          <div class="testimonial-track" id="testimonialTrack">
+            <div class="testimonial-card">
+              <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+              <p>Nexify completely transformed how we operate. Our team productivity increased by 200% within months. The automation features alone save us 20+ hours every week.</p>
+              <div class="testimonial-author">
+                <img src="https://ui-avatars.com/api/?background=0D9488&color=fff&name=Sarah+C&size=128" alt="Sarah Chen" class="author-img" loading="lazy">
+                <div>
+                  <strong>Sarah Chen</strong>
+                  <span>CTO, Lumina Tech</span>
+                </div>
+              </div>
+              <div class="testimonial-company">
+                <img src="assets/logo-1.svg" alt="Lumina Tech" loading="lazy">
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+              <p>The AI automation features saved us over 30 hours per week. Game-changer for scaling our operations. We've grown 3x while keeping the same team size.</p>
+              <div class="testimonial-author">
+                <img src="https://ui-avatars.com/api/?background=0D9488&color=fff&name=Marcus+R&size=128" alt="Marcus Rodriguez" class="author-img" loading="lazy">
+                <div>
+                  <strong>Marcus Rodriguez</strong>
+                  <span>CEO, SwiftScale</span>
+                </div>
+              </div>
+              <div class="testimonial-company">
+                <img src="assets/logo-2.svg" alt="SwiftScale" loading="lazy">
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+              <p>Best investment we made this year. Seamless integration and world-class support team. The onboarding was smooth and we were up and running in just 2 days.</p>
+              <div class="testimonial-author">
+                <img src="https://ui-avatars.com/api/?background=0D9488&color=fff&name=Elena+V&size=128" alt="Elena Voss" class="author-img" loading="lazy">
+                <div>
+                  <strong>Elena Voss</strong>
+                  <span>Product Lead, InnovateX</span>
+                </div>
+              </div>
+              <div class="testimonial-company">
+                <img src="assets/logo-3.svg" alt="InnovateX" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="slider-controls">
+            <button class="slider-btn" id="prevSlide" aria-label="Previous testimonial"><i class="fas fa-chevron-left" aria-hidden="true"></i></button>
+            <div class="slider-dots" id="sliderDots" role="tablist" aria-label="Testimonial navigation"></div>
+            <button class="slider-btn" id="nextSlide" aria-label="Next testimonial"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section" aria-label="Platform statistics">
+      <div class="container">
+        <div class="stats-grid" data-reveal>
+          <div class="stat-item">
+            <span class="stat-number" data-count="10000">0</span>
+            <span class="stat-suffix">+</span>
+            <span class="stat-label">Active Teams</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-count="50">0</span>
+            <span class="stat-suffix">M+</span>
+            <span class="stat-label">Tasks Automated</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-count="99">0</span>
+            <span class="stat-suffix">.9%</span>
+            <span class="stat-label">Uptime</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-count="150">0</span>
+            <span class="stat-suffix">+</span>
+            <span class="stat-label">Countries</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact" aria-label="Call to action">
+      <div class="cta-bg-image" style="background-image: url('assets/cta-bg.jpg');" aria-hidden="true"></div>
+      <div class="cta-overlay" aria-hidden="true"></div>
+      <div class="container cta-container">
+        <div class="cta-card" data-reveal>
+          <h2>Ready to accelerate your growth?</h2>
+          <p>Join thousands of teams using Nexify to build faster, automate smarter, and scale confidently. Start your free trial today.</p>
+          <div class="cta-buttons">
+            <button class="btn-primary btn-large" id="finalCtaBtn">
+              Get Started Free <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </button>
+            <button class="btn-outline btn-large" id="contactSalesBtn">
+              Contact Sales
+            </button>
+          </div>
+          <p class="cta-note"><i class="fas fa-check-circle" aria-hidden="true"></i> No credit card required · 14-day free trial</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="logo">
+          <i class="fas fa-bolt" aria-hidden="true"></i>
+          <span>Nexify</span>
+        </div>
+        <p>Next-generation productivity platform for forward-thinking teams who want to build, automate, and scale with confidence.</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Follow us on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Connect on LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Star us on GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Join our Discord"><i class="fab fa-discord" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Watch us on YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Integrations</a></li>
+            <li><a href="#">Roadmap</a></li>
+            <li><a href="#">Changelog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a> <span class="badge">Hiring</span></li>
+            <li><a href="#">Press Kit</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">System Status</a></li>
+            <li><a href="#">API Reference</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">GDPR</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-content">
+          <p>© 2026 Nexify. All rights reserved. Built for innovation.</p>
+          <div class="footer-bottom-links">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
